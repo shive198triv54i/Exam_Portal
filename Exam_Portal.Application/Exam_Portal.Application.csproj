@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exam_Portal.Core\Exam_Portal.Core.csproj" />
+    <ProjectReference Include="..\Exam_Portal.Infrastructure\Exam_Portal.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
