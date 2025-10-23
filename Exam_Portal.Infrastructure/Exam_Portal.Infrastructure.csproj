@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Exam_Portal.Core\Exam_Portal.Core.csproj" />
+	<ProjectReference Include="..\Exam_Portal.Application\Exam_Portal.Application.csproj" />
   </ItemGroup>
 
 </Project>
+                                 
