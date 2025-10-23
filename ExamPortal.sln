@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_Portal.Core", "Exam_Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_Portal.Infrastructure", "Exam_Portal.Infrastructure\Exam_Portal.Infrastructure.csproj", "{17047FEB-40FC-48B4-AA42-BCCA941EB701}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_Portal.Utils", "Exam_Portal.Utils\Exam_Portal.Utils.csproj", "{A7F2C8D3-BDB4-47CB-A70E-9DE2CB84FF3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{17047FEB-40FC-48B4-AA42-BCCA941EB701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17047FEB-40FC-48B4-AA42-BCCA941EB701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17047FEB-40FC-48B4-AA42-BCCA941EB701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F2C8D3-BDB4-47CB-A70E-9DE2CB84FF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F2C8D3-BDB4-47CB-A70E-9DE2CB84FF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F2C8D3-BDB4-47CB-A70E-9DE2CB84FF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F2C8D3-BDB4-47CB-A70E-9DE2CB84FF3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
