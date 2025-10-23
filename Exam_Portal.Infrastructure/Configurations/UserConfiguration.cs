@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Exam_Portal.Core.ValueObjects;
 
 namespace Exam_Portal.Infrastructure.Configurations
 {
@@ -20,8 +21,13 @@ namespace Exam_Portal.Infrastructure.Configurations
                 .HasMaxLength(100);
 
             builder.Property(u => u.Email)
-                .IsRequired()
-                .HasMaxLength(100);
+                  .HasConversion(
+                       email => email.Value,        
+                       value => new Email(value)    
+                   )
+                  .HasColumnName("Email")
+                  .HasMaxLength(100)
+                  .IsRequired();
 
             builder.Property(u => u.PasswordHash)
                 .IsRequired();

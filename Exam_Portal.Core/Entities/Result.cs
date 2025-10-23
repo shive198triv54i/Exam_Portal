@@ -18,6 +18,6 @@ namespace Exam_Portal.Core.Entities
         public string? PdfReceiptPath { get; set; }
 
         public User? User { get; set; }
-        //public Exam? Exam { get; set; }
+        public Exam? Exam { get; set; }
     }
 }

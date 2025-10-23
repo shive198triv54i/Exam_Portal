@@ -17,21 +17,15 @@ namespace Exam_Portal.Infrastructure.Data
         }
 
         public DbSet<User> Users => Set<User>();
-       
+        public DbSet<Exam> Exams => Set<Exam>();
+        public DbSet<Question> Questions => Set<Question>();
+        public DbSet<Result> Results => Set<Result>();
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ExamPortalDbContext).Assembly);
-
-            modelBuilder.Entity<User>()
-                .OwnsOne(u => u.Email, e =>
-                {
-                    e.Property(p => p.Value)
-                     .HasColumnName("Email")
-                     .IsRequired()
-                     .HasMaxLength(100);
-                });
         }
     }
 }
