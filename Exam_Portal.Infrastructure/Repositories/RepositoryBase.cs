@@ -1,7 +1,7 @@
-﻿using Exam_Portal.Core.Common;
+﻿using Exam_Portal.Application.Interfaces;
+using Exam_Portal.Core.Common;
 using Exam_Portal.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using Exam_Portal.Application.Interfaces;
 
 
 

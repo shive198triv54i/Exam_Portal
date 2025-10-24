@@ -15,8 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Exam_Portal.Application\Exam_Portal.Application.csproj" />
     <ProjectReference Include="..\Exam_Portal.Core\Exam_Portal.Core.csproj" />
-	<ProjectReference Include="..\Exam_Portal.Application\Exam_Portal.Application.csproj" />
+    <ProjectReference Include="..\Exam_Portal.Utils\Exam_Portal.Utils.csproj" />
   </ItemGroup>
 
 </Project>
